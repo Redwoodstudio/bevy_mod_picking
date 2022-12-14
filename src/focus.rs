@@ -9,7 +9,7 @@ use bevy::{prelude::*, ui::FocusPolicy};
 #[derive(Component, Debug, Default, Copy, Clone, Reflect)]
 #[reflect(Component, Default)]
 pub struct Hover {
-    hovered: bool,
+    pub hovered: bool,
 }
 
 impl Hover {

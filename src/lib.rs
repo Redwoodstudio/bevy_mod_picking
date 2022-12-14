@@ -27,6 +27,7 @@ pub enum PickingSystem {
     Highlighting,
     Selection,
     PauseForBlockers,
+	PauseForEgui,
     Focus,
     Events,
 }
@@ -69,7 +70,7 @@ fn simple_criteria(flag: bool) -> ShouldRun {
 }
 
 #[derive(Default, Resource)]
-pub struct PausedForBlockers(pub(crate) bool);
+pub struct PausedForBlockers(pub bool);
 impl PausedForBlockers {
     pub fn is_paused(&self) -> bool {
         self.0

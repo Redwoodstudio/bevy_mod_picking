@@ -2,6 +2,8 @@
   
 # Mouse Picking for Bevy
 
+# IMPORTANT!!!
+## For the love of god **DO NOT USE** this repository on your own project. I don't know how I got here, but it works and I sure as hell don't want to touch it ever again. This fork is from the 0.7.0 version *probably* and I've only changed some visibility modifiers so I can edit some things in my app.
 [![crates.io](https://img.shields.io/crates/v/bevy_mod_picking)](https://crates.io/crates/bevy_mod_picking)
 [![docs.rs](https://docs.rs/bevy_mod_picking/badge.svg)](https://docs.rs/bevy_mod_picking)
 [![CI](https://github.com/aevyrie/bevy_mod_picking/workflows/CI/badge.svg?branch=master)](https://github.com/aevyrie/bevy_mod_picking/actions?query=workflow%3A%22CI%22+branch%3Amaster)
